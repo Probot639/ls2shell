@@ -1,0 +1,13 @@
+services:
+  target:
+    build: .
+    container_name: ls2shell-target
+    hostname: bluebox
+    stdin_open: true
+    tty: true
+
+  test:
+    build: .
+    container_name: ls2shell-test
+    command: /test.sh
+    profiles: [test]

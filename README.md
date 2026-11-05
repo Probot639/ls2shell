@@ -9,7 +9,7 @@ Also a direct response to the x2shell trend. You know who you are.
 
 ## Triggers
 
-**`--root-shell`** (the joke one)
+**`--root-shell`**
 
 ```
 blueteam@box:~$ ls --root-shell
@@ -20,7 +20,7 @@ root
 
 Shows normal ls output, then drops to an interactive root shell. For the demo.
 
-**`.x2shell` trigger file** (the real one)
+**`.x2shell` trigger file**
 
 Plant a file called `.x2shell` in any directory. Contents are `host:port` for the reverse shell callback.
 
